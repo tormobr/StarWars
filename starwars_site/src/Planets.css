@@ -1,0 +1,51 @@
+
+
+.All{
+    background-image: url("strudel.png");
+	background-repeat: repeat repeat;
+	height: 100%;
+    min-height: 1080px;
+	
+}
+.PlanetList{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.PlanetContainer{
+    border: 1px solid  #333;
+    margin: 10px;
+    flex-basis: 40%;
+    color: white;
+    background-color: black;
+    background-color:rgba(0, 0, 0, .3);
+    opacity: 50%;
+}
+
+.PlanetContainer:hover {
+    box-shadow: 0 10px 11px rgba(200,200,200,.2); 
+}
+
+.PlanetContainer tr{
+    text-align: left;
+}
+.PlanetContainer table{
+    display: inline-block;
+    border-collapse: collapse;
+}
+.PlanetContainer td{
+    border: 1px lightgrey solid;
+    padding: 10px;
+}
+
+#Name{
+    border-bottom: 1px yellow solid;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: 110%;
+}

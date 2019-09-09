@@ -1,0 +1,32 @@
+
+
+.MenuEntry{
+    border: 1px solid  #333;
+    margin: 40px;
+    flex-basis: 20%;
+    color: white;
+	background-color: black;
+	margin-top: 100px;
+}
+
+.MenuEntry a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.MenuEntry:hover {
+    box-shadow: 0 10px 11px rgba(200,200,200,.2); 
+}
+
+
+.MainMenu{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
